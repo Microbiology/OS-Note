@@ -36,7 +36,7 @@ my $flag = 0;
 
 # Set the first line for the table of contents
 print OUT "\#Summary
-Lab notebook entires for GD Hannigan in the Schloss Lab\.
+Lab notebook entires\.
 
 \#Table of Contents\n";
 
