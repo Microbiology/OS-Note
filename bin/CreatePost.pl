@@ -35,7 +35,7 @@ my $year = 1900 + (localtime)[5];
 print OUT "---
 file: $year-$month-$day.md
 layout: post
-date: $year-$month-$day.md
+date: $year-$month-$day
 ---
 
 #Summary
