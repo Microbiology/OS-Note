@@ -1,5 +1,5 @@
 #Summary
-Lab notebook entires for GD Hannigan in the Schloss Lab.
+Lab notebook entires.
 
 #Table of Contents
 
