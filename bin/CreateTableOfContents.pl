@@ -47,7 +47,7 @@ foreach my $inFile (@input) {
 		# First print the date
 		if ($line =~ /date:\s/) {
 			$line =~ s/date:\s+//;
-			print OUT "\n\#\#\ $line\n";
+			print OUT "\n\#\# \[$line\]\(https://github.com/Microbiology/OS-Note/blob/master/notebook/posts/posts/$line.md\)\n";
 		}
 		if ($flag = 0 & $line =~ /#\ Summary/) {
 			$flag = 1;
