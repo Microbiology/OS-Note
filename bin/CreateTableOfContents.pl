@@ -47,14 +47,14 @@ foreach my $inFile (@input) {
 		# First print the date
 		if ($line =~ /date:\s/) {
 			$line =~ s/date:\s+//;
-			print OUT "\n\#\#$line\n";
+			print OUT "\n\#\#\ $line\n";
 		}
-		if ($flag = 0 & $line =~ /#Summary/) {
+		if ($flag = 0 & $line =~ /#\ Summary/) {
 			$flag = 1;
 			next;
 		} elsif ($flag = 1 & $line =~ /^\*/) {
 			print OUT "$line\n";
-		} elsif ($flag = 1 & $line =~ /#Contents/) {
+		} elsif ($flag = 1 & $line =~ /#\ Contents/) {
 			$flag = 0;
 			last;
 		} else {
