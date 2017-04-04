@@ -38,15 +38,15 @@ layout: post
 date: $year-$month-$day
 ---
 
-#Summary
+# Summary
 * Add Bullet Points for Advances Today
 * These should be copied for contents as well
 
-#Contents
-##Add Bullet Points for Advances Today
+# Contents
+## Add Bullet Points for Advances Today
 Write your summary for this section.
 
-##These should be copied for contents as well
+## These should be copied for contents as well
 And your summary for this section too.
 ";
 
