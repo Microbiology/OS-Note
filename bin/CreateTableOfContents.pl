@@ -35,10 +35,10 @@ open(OUT, ">$output") || die "Unable to write to $output: $!";
 my $flag = 0;
 
 # Set the first line for the table of contents
-print OUT "\#Summary
+print OUT "\# Summary
 Lab notebook entires\.
 
-\#Table of Contents\n";
+\# Table of Contents\n";
 
 foreach my $inFile (@input) {
 	open(ITFILE, "<$inFile");
